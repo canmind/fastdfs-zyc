@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <server>
+        <ip>192.168.20.141</ip>
+        <port>22</port>
+        <username>root</username>
+        <password>1qazxsw2</password>
+        <logpath>/usr/local/nginx-1.3.4/logs/</logpath>
+    </server>
+    <server>
+        <ip>192.168.20.144</ip>
+        <port>22</port>
+        <username>root</username>
+        <password>1qazxsw2</password>
+        <logpath>/usr/local/nginx-1.3.4/logs/</logpath>
+    </server>
+    <!--    方式1
+        <ssh>/Users/Chen/.ssh/id_rsa</ssh>
+        <ip>192.168.40.53</ip>
+        <port>22</port>
+        <username>root</username>
+        <logpath>/usr/local/nginx-1.3.4/logs/</logpath>
+    </server>
+    -->
+    <!--方式2
+        <ip>192.168.40.53</ip>
+        <username>root</username>
+        <password>vivame@2012</password>
+        <logpath>/usr/local/nginx-1.3.4/logs/</logpath>
+    </server>
+    -->
+</root>
